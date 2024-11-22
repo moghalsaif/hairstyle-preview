@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HairStyle Preview - See Your Perfect Look</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header class="header-ribbon">
+        <div class="header-content">
+            <div class="logo animate__animated animate__fadeIn">Hair Stylist AI</div>
+            <a href="https://forms.gle/YourGoogleFormLink" target="_blank" class="header-waitlist-button animate__animated animate__fadeIn">Join the waitlist</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="animate__animated animate__fadeInUp">Don't <span class="underline">tell</span> your barber, <span class="underline">show</span> them.</h1>
+            <p class="caption animate__animated animate__fadeInUp animate__delay-1s">Zayn Malik looks good in a buzz cut, not you, Rajesh. Find what suits you, not by guessing but by seeing.</p>
+        </section>
+
+        <section class="showcase">
+            <div class="image-container">
+                <div class="image-box-wrapper">
+                    <div class="image-box hover-lift">
+                        <img id="userPhoto" src="placeholder-face.jpg" alt="Your Photo">
+                        <input type="file" id="faceUpload" class="file-input" accept="image/*">
+                    </div>
+                    <p class="image-caption">Upload Your Photo</p>
+                </div>
+                <div class="connector">
+                    <div class="plus-icon">+</div>
+                </div>
+                <div class="image-box-wrapper">
+                    <div class="image-box hover-lift">
+                        <img id="stylePhoto" src="placeholder-style.jpg" alt="Style Photo">
+                        <input type="file" id="styleUpload" class="file-input" accept="image/*">
+                    </div>
+                    <p class="image-caption">Upload Style</p>
+                </div>
+                <div class="connector">
+                    <div class="equals-icon">=</div>
+                </div>
+                <div class="image-box-wrapper">
+                    <div class="image-box hover-lift">
+                        <img id="resultPhoto" src="placeholder-result.jpg" alt="Preview Result">
+                    </div>
+                    <p class="image-caption">Your Preview</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2 class="animate__animated animate__fadeInUp">You deserve a better haircut.</h2>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Join the waitlist now.</p>
+            <a href="https://forms.gle/YourGoogleFormLink" target="_blank" class="waitlist-button hover-lift">Join Waitlist</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="about-section animate__animated animate__fadeInUp">
+                <h3>About the Product</h3>
+                <p>Hair Stylist AI is your personal hair makeover assistant. Using advanced AI technology, we help you visualize different hairstyles on your photo before making the big change. No more post-haircut regrets!</p>
+            </div>
+            <div class="contact-section animate__animated animate__fadeInUp animate__delay-1s">
+                <p>If you have something to tell us, you can email us at:</p>
+                <a href="mailto:moghalsaif21@gmail.com" class="hover-underline">moghalsaif21@gmail.com</a> / 
+                <a href="mailto:bharat@gmail.com" class="hover-underline">bharat@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
